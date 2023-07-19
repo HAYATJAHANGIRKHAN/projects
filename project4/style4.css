@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(to left bottom, lightgreen,lightblue);
+}
+.container{
+    background-color: rgba(255,255,255,.1);
+    box-shadow: 0 6px 10px rgba(0,0,0,.3);
+    font-size: larger;
+    padding: 30px;
+    border-radius: 15px;
+    width: 90%;
+    margin: 20px;
+    text-align: center;
+}
+.heading{
+    font-size: 40px;
+    font-weight: 900;
+}
+.quote{
+    font-size: 30px;
+    font-weight: 700;
+}
+.author{
+    font-size: 30px;
+    margin: 20px;
+    font-style: italic;
+}
+.btn{
+    font-size: 28px;
+    border-radius: 40px;
+    cursor: pointer;
+    padding: 20px;
+    margin-top: 13px;
+    background-color: rgba(255,255,255, 0.3);
+    border-color: rgba(255,255,255, 0.6);
+    text-transform: uppercase;
+    width: 300px;
+}
+.btn:hover{
+    background-color: rgba(22, 213, 105, 0.5);
+    font-size: 30px;
+    color: whitesmoke;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+    transition: all 200ms ease-in-out;
+    color: antiquewhite;
+    
+}
